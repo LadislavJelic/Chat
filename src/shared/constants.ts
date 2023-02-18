@@ -1,0 +1,1 @@
+export const TOKEN = "tPgPUVxilfuY"; // token should be stored in localstorage

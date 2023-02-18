@@ -1,0 +1,46 @@
+@import "../../shared/variables.scss";
+
+.note {
+  border: 2px solid #d4dade;
+  border-radius: 5px;
+  display: table;
+  margin: 0 0 10px 0;
+  padding: 14px 16px;
+  background: #fff;
+  position: relative;
+
+  &:nth-last-child(2) {
+    margin-bottom: 16px;
+  }
+
+  .author {
+    font-size: 14px;
+    color: $mainGray;
+  }
+
+  .message {
+    font-size: 16px;
+    font-weight: bold;
+    color: $mainDark;
+    margin: 2px 0 4px 0;
+  }
+
+  .date {
+    font-size: 14px;
+    color: $mainGray;
+  }
+
+  &.myself {
+    background-color: #fcf6c5;
+    margin-left: auto;
+    min-width: 100px;
+    max-width: 420px;
+    padding-bottom: 25px;
+
+    .date {
+      position: absolute;
+      right: 8px;
+      bottom: 5px;
+    }
+  }
+}
