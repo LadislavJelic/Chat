@@ -43,4 +43,12 @@
       bottom: 5px;
     }
   }
+
+  &.myself + &.other {
+    margin-top: 16px;
+  }
+
+  &.other + &.myself {
+    margin-top: 16px;
+  }
 }

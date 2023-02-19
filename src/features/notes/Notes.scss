@@ -8,8 +8,24 @@
   .inner-wrapper {
     width: 1000px;
     margin: auto;
+    box-sizing: border-box;
   }
-  .qqq {
-    height: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+  .notes-wrapper {
+    .inner-wrapper {
+      width: 640px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .notes-wrapper {
+    padding-top: 20px;
+    .inner-wrapper {
+      width: 100%;
+      padding: 0 24px;
+    }
   }
 }
