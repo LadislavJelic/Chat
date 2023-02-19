@@ -52,3 +52,10 @@
     margin-top: 16px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .note,
+  .note.myself {
+    max-width: 240px;
+  }
+}
